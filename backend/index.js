@@ -16,6 +16,7 @@ app.use(cors());
 // mongoose.connect("mongodb+srv://surajsingh95931:Suraj95931@@cluster0.pbsm5gi.mongodb.net/e-commerce")
 mongoose.connect(
   "mongodb+srv://surajsingh95931:Suraj95931%40@cluster0.pbsm5gi.mongodb.net/e-commerce"
+  //"mongodb://localhost:27017/Ecommerce"
 );
 
 // API Creation

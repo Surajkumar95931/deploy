@@ -7,7 +7,7 @@ const Popular = () => {
   const [popularProducts, setPopularProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/popularinwomen")
+    fetch("https://pink-weary-bluefish.cyclic.app/popularinwomen")
       .then((response) => response.json())
       .then((data) => setPopularProducts(data));
   }, []);
